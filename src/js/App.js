@@ -3,6 +3,8 @@ import BookShelf from "./BookShelf";
 import { useState } from "react";
 import * as BookAPI from "./BooksAPI";
 import SearchedBook from "./SearchedBook";
+import "../css/App.css"
+import "../css/SearchBooks.css"
 
 
 function App({shelves}){ 

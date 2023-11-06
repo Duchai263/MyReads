@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import "./App.css";
+import React from "react";
 import { createRoot } from 'react-dom/client';
 import "./index.css";
-import App from "./App";
-import Test from "./App_Test";
+import App from "./js/App";
+// import Test from "./App_Test";
 
 const root = createRoot(document.getElementById('root'))
 
